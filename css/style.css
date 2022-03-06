@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+@import "./footer.css";
+@import "./navigation.css";
+@import "./main.css";
+
+* {
+	box-sizing: border-box;
+}
+
+header, body, footer {
+    background-color: aqua;
+}
+
+@media only screen and (min-width:650px) and (max-width: 992px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    header, body, footer {
+        background-color:antiquewhite;
+    }
+}
+
+@media only screen and (max-width:649px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    header, body, footer {
+        background-color: antiquewhite;
+  }
+}
